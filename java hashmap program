@@ -1,0 +1,16 @@
+import java.util.*;
+class hashmap
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+HashMap<Integer,String> x=new HashMap<Integer,String>();
+x.put(5,"rohi");
+x.put(1,"San");
+x.put(7,"jeeven");
+for (Map.Entry<Integer, String> i : x.entrySet())
+{
+System.out.println(i.getKey() + " " + i.getValue());
+}
+}
+}
